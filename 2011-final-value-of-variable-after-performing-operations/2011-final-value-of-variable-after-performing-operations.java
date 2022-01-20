@@ -3,11 +3,7 @@ class Solution {
         int x = 0;
         
         for(String str: operations){
-            if(str.equals("X++") || str.equals("++X")){
-                x = x + 1;
-            } else {
-                x = x - 1;
-            }
+            x = (str.equals("X++") || str.equals("++X")) ? x + 1 : x - 1;
         }
         
         return x;
