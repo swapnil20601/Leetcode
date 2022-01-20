@@ -3,13 +3,17 @@ class Solution {
         int ans = Integer.MIN_VALUE;
         
         for(String str: sentences) {
-            int count = 1;
-            for(int i = 0; i < str.length(); i++){
-                if(str.charAt(i) == ' '){
-                    count++;
-                }
-            }
-            ans = Math.max(ans, count);
+            /*
+            
+            String[] words = str.split(" ");
+            ans = Math.max(ans, words.length);
+            
+            */
+            
+            //The following code can be written is 2 lines as above.
+            // Since split() returns array of strings based on delimiter; th
+            // count of words in a sentences = length of array returned after   using split
+            ans = Math.max(ans, str.split(" ").length);
         }
         
         return ans;
