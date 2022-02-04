@@ -7,19 +7,16 @@ class Solution {
 
     public int maxProfit(int[] prices) {
         int maxProfit = 0;
+        int currMin = Integer.MAX_VALUE;
 
-        int currMax = Integer.MIN_VALUE;
+        for (int price : prices) {
+            currMin = Math.min(currMin, price);
 
-        int[] maxSellingPrice = new int[prices.length];
+            int currProfit = price - currMin;
 
-        for (int i = prices.length-1; i >= 0; i--) {
-            currMax = Math.max(currMax, prices[i]);
-            maxSellingPrice[i] = currMax;
+            maxProfit = Math.max(maxProfit, currProfit);
         }
 
-        for (int i = 0; i < prices.length; i++) {
-            maxProfit = Math.max(maxProfit, maxSellingPrice[i] - prices[i]);
-        }
         return maxProfit;
     }
 }
