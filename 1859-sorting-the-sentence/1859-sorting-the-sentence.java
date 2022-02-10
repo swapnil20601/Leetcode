@@ -6,13 +6,19 @@ class Solution {
         
         String[] str = s.split(" ");
         String[] res = new String[str.length];
+        StringBuilder sb = new StringBuilder(); 
 
         for (String word : str) {
             char ch = word.charAt(word.length() - 1);
-            int i = Character.getNumericValue(ch) - 1;
+            int i = ch - '1';
             res[i] = word.substring(0, word.length() - 1);
         }
 
-        return String.join(" ", res);
+        for (int i = 0; i < res.length-1; i++) {
+            sb.append(res[i]).append(" ");
+        }
+        
+        sb.append(res[res.length-1]);
+        return sb.toString();
     }
 }
