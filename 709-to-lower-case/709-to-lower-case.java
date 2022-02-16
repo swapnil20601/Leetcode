@@ -5,7 +5,7 @@ class Solution {
            
             res[i] = (res[i] >= 65 && res[i] <= 90) ? (char)(res[i] + 32) : res[i];
         }
-        return String.valueOf(res);
+        return new String(res);
     }
 }
 
