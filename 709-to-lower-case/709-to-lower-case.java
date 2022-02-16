@@ -6,6 +6,8 @@ class Solution {
                 res[i] = (char)(res[i] + 32);
             }
         }
-        return new String(res);
+        return String.valueOf(res);
     }
 }
+
+//try with hashmap
