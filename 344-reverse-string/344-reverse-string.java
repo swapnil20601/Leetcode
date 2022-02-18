@@ -4,10 +4,8 @@ class Solution {
         
         while(i < j){
             char temp = s[i];
-            s[i] = s[j];
-            s[j] = temp;
-            i++;
-            j--;
+            s[i++] = s[j];
+            s[j--] = temp;
         }
     }
 }
