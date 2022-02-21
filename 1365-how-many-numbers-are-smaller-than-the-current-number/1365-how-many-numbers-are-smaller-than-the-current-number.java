@@ -1,19 +1,27 @@
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
-        int[] copy = nums.clone();
-        Map<Integer, Integer> map = new HashMap<>();
+        int[] res = new int[nums.length];
+        int[] freq = new int[101];
         
-        Arrays.sort(copy);
+        //stor occurences of each number in nums insode freq array
+        for(int i = 0; i < nums.length; i++){
+            freq[nums[i]]++;
+        }
         
-        for(int i = 0; i < copy.length; i++){
-            if(!map.containsKey(copy[i])){
-                map.put(copy[i],i);
+        //calculatr prefix sum till end of freq array
+        for(int i = 1; i < 101; i++){
+            freq[i] += freq[i-1];
+        }
+        
+        //update res[] array ith the element just before nums[i]. Beware if nums[i] = 0. Take special care
+        for(int i = 0; i < nums.length; i++){
+            if(nums[i] == 0){
+                res[i] = 0;
+            }
+            else {
+                res[i] = freq[nums[i]-1];
             }
         }
-        
-        for(int i = 0; i < nums.length; i++){
-            copy[i] = map.get(nums[i]);
-        }
-        return copy;
+        return res;
     }
 }
