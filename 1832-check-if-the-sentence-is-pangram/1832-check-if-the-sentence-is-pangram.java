@@ -1,17 +1,11 @@
 class Solution {
     public boolean checkIfPangram(String sentence) {
-         boolean[] alphabets = new boolean[26];
-        
-        for(char c : sentence.toCharArray()){
-            alphabets[c - 97] = true;
-        }
-        
-        for(boolean letter: alphabets){
-            if(!letter){
+        for(int i = 0; i < 26; i++){
+            char letter = (char)(i+97);
+            if(sentence.indexOf(letter) < 0){
                 return false;
             }
         }
-        
         return true;
     }
 }
