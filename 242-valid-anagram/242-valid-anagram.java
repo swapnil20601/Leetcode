@@ -4,25 +4,18 @@ class Solution {
             return false;
         }
         
-        Map<Character, Integer> map = new HashMap<>();
-        
-        for(int i = 0; i < s.length(); i++){
-            map.put(s.charAt(i), map.getOrDefault(s.charAt(i), 0)+1);
-        }
-        
-        for(int i = 0; i < t.length(); i++){
-            char key = t.charAt(i);
-            if(!map.containsKey(key)){
-                return false;
-            }
-            else if(map.get(key) == 1){
-                map.remove(key);
-            }
-            else{
-                map.put(t.charAt(i), map.get(key)-1);
-            }
+         int[] freq = new int[26];
+
+        for (int i = 0; i < s.length(); i++) {
+            freq[s.charAt(i) - 'a']++;
         }
 
-        return map.size() == 0;
+        for (int i = 0; i < t.length(); i++) {
+            freq[t.charAt(i) - 'a']--;
+            if(freq[t.charAt(i) - 97] < 0){
+                return false;
+            }
+        }
+        return true;
     }
 }
