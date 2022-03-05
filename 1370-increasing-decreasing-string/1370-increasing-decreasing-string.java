@@ -9,17 +9,15 @@ class Solution {
         
         while(res.length() < s.length()){
             for(int i = 0; i < 26; i++){
-                if(freq[i] > 0){
+                if(freq[i]-- > 0){
                     res.append((char)(i+97));
                 }
-                freq[i]--;
             }
             
             for(int i = 25; i >= 0; i--){
-                if(freq[i] > 0){
+                if(freq[i]-- > 0){
                     res.append((char)(i+97));
                 }
-                freq[i]--;
             }
         }
         
