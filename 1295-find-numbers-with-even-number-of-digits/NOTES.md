@@ -23,3 +23,16 @@ return digits;
 }
 TC = O(n * m) where m is the length of each number in array
 **Approach 3: Using log**
+int count = 0;
+for(int x : nums){
+int digits = (int)Math.log10(x) + 1;
+if(digits % 2 == 0){
+count++;
+}
+}
+return count;
+//example (234 log 10 + 1) = ( 2 + 1 ) = 3 - number of digit
+// 7539 log 10:
+7 * 1000 = 7 * 10 ^ 3
+Hence, Taking 1og base 10, we get x = 3
+So, 3+1 = 4 number of digits
