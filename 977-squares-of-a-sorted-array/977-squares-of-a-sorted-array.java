@@ -10,13 +10,14 @@ class Solution {
             int rightVal = nums[j] * nums[j];
             
             if(leftVal > rightVal){
-                res[maxVal--] = leftVal;
+                res[maxVal] = leftVal;
                 i++;
             }
             else {
-                res[maxVal--] = rightVal;
+                res[maxVal] = rightVal;
                 j--;
             }
+            maxVal--;
         }
         return res;
     }
