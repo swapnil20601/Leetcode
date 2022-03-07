@@ -14,22 +14,13 @@ class Solution {
             return head;
         }
         
-        ListNode currNode = head;
-        int len = 0;
+        ListNode slow = head;
+        ListNode fast = head;
         
-        while(currNode != null){
-            len++;
-            currNode = currNode.next;
+        while(fast != null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
         }
-        
-        int middleNode = (len/2)+1;
-        currNode = head;
-        
-        while(middleNode > 1){
-            currNode = currNode.next;
-            middleNode -= 1;
-        }
-        
-        return currNode;
+        return slow;
     }
 }
