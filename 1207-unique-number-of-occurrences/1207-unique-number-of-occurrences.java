@@ -6,7 +6,18 @@ class Solution {
             map.put(key, map.getOrDefault(key,0)+1);
         }
         
-        Set<Integer> set = new HashSet<>(map.values());
-        return map.size() == set.size();
+        Set<Integer> set = new HashSet<>();
+        
+        for(int val : map.values()){
+            if(set.contains(val)){
+                return false;
+            }
+            else{
+                set.add(val);
+            }
+        }
+        
+        return true;
+        
     }
 }
