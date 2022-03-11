@@ -17,8 +17,8 @@ class MovingAverage {
             this.sum -= this.queue.poll();
         }
         
-        double avg = this.sum/this.queue.size();
-        return avg;
+        return this.sum/this.queue.size();
+        //return avg;
     }
 }
 
