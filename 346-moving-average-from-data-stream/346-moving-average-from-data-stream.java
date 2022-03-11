@@ -1,6 +1,6 @@
 class MovingAverage {
-    private Queue<Integer> queue;
-    private int sum;
+    private Deque<Integer> queue;
+    private double sum;
     private int size;
     
     public MovingAverage(int size) {
@@ -17,7 +17,7 @@ class MovingAverage {
             this.sum = this.sum - this.queue.poll();
         }
         
-        double avg = (double)this.sum/this.queue.size();
+        double avg = this.sum/this.queue.size();
         return avg;
     }
 }
