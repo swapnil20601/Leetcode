@@ -11,7 +11,7 @@ class MovingAverage {
     
     public double next(int val) {
         this.sum += val;
-        this.queue.add(val);
+        this.queue.offer(val);
         
         if(this.queue.size() > this.size){
             this.sum -= this.queue.poll();
