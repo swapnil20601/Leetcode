@@ -14,7 +14,7 @@ class MovingAverage {
         this.queue.add(val);
         
         if(this.queue.size() > this.size){
-            this.sum = this.sum - this.queue.poll();
+            this.sum -= this.queue.poll();
         }
         
         double avg = this.sum/this.queue.size();
