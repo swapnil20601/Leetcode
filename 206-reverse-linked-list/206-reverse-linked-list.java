@@ -14,16 +14,9 @@ class Solution {
             return head;
         }
         
-        ListNode curr = head;
-        ListNode tail = null;
-        
-        while(curr != null){
-            ListNode nextNode = curr.next;
-            curr.next = tail;
-            tail = curr;
-            curr = nextNode;
-        }
-        
-        return tail;
+        ListNode newHead = reverseList(head.next);
+        head.next.next = head;
+        head.next = null;
+        return newHead;
     }
 }
