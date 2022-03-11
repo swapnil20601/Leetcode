@@ -4,14 +4,16 @@ class Solution {
             return -1;
         }
         
+        int maxSofar = Integer.MIN_VALUE;
+        int maxIndex = -1;
         
-        
-        for(int i = 0 ;i < arr.length - 1; i++){
-            if(arr[i] > arr[i+1]){
-                return i;
+        for(int i = 0; i < arr.length; i++){
+            if(arr[i] > maxSofar){
+                maxIndex = i;
+                maxSofar = arr[i];
             }
         }
         
-        return -1;
+        return maxIndex;
     }
 }
