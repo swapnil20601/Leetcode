@@ -4,13 +4,14 @@ class Solution {
             return nums;
         }
         
-        int[] res = new int[2*n];
-        int j = 0;
-        
-        for(int i = 0; i< n; i++){
-            res[j++] = nums[i];
-            res[j++] = nums[i+n];
+        for(int i = 0 ; i < n; i++){
+            nums[i+n] = nums[i]*1001+nums[i+n];
         }
-        return res;
+        
+        for(int i = 0; i < n; i++){
+            nums[2*i] = nums[i+n] / 1001;
+            nums[2*i+1] = nums[i+n] % 1001;
+        }
+        return nums;
     }
 }
