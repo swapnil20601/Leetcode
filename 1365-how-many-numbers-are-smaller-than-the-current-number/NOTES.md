@@ -28,3 +28,5 @@ for(int i = 0; i < nums.length; i++){
 copy[i] = map.get(nums[i]);
 }
 return copy;
+TC = O(n log n) + O(N) + O(N)
+SC = O(N)
