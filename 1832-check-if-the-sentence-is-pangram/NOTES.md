@@ -17,6 +17,8 @@ return false;
 }
 }
 return true;
+TC = O(N)
+SC= O(1) coz at any given point of time set cannot have more than 26 lenthg
 **Approach 3: Using indexOf()**
 for(int i = 0; i < 26; i++){
 char letter = (char)(i+97);
@@ -25,3 +27,5 @@ return false;
 }
 }
 return true;
+TC = O(N)
+SC= O(1) coz at any given point of time set cannot have more than 26 lenthg
