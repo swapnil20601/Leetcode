@@ -6,18 +6,17 @@ class Solution {
         }
         
         int total = 1;
-        int[] substring_freqy = new int[s.length()];
-        substring_freqy[0] = 1;
+        int count = 1;
         
         for(int i = 1; i < s.length(); i++){
             if(s.charAt(i) == s.charAt(i-1)){
-                substring_freqy[i] = substring_freqy[i-1] + 1;
+                count++;
             }
             else {
-                substring_freqy[i] = 1;
+                count = 1;
             }
             
-            total += substring_freqy[i];
+            total += count;
         }
         
         return total;
