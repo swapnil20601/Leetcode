@@ -12,17 +12,17 @@ class Solution {
         
         while(i < j){
             
-            while(i < j && !vowels.contains(res[i])){
+            if(!vowels.contains(res[i])){
                 i++;
             }
-            
-            while(i < j && !vowels.contains(res[j])){
+            else if(!vowels.contains(res[j])){
                 j--;
             }
-            
-            char temp = res[i];
-            res[i++] = res[j];
-            res[j--] = temp;
+            else{
+                char temp = res[i];
+                res[i++] = res[j];
+                res[j--] = temp;
+            }
         }
         
         return String.valueOf(res);
