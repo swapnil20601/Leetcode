@@ -22,7 +22,7 @@ n /= 10;
 return digits;
 }
 TC = O(n * m) where m is the length of each number in array
-**Approach 3: Optimal**
+**Approach 3: Optimal Making use of given constraint**
 public int findNumbers(int[] nums) {
 int count=0;
 for(int i =0 ; i< nums.length; i++){
