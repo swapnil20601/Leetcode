@@ -22,7 +22,17 @@ n /= 10;
 return digits;
 }
 TC = O(n * m) where m is the length of each number in array
-**Approach 3: Using log**
+**Approach 3: Optimal**
+public int findNumbers(int[] nums) {
+int count=0;
+for(int i =0 ; i< nums.length; i++){
+if((nums[i]>9 && nums[i]<100) || (nums[i]>999 && nums[i]<10000) || nums[i]==100000){
+count++;
+}
+}
+return count;
+}
+**Approach 4: Using log**
 int count = 0;
 for(int x : nums){
 int digits = (int)Math.log10(x) + 1;
