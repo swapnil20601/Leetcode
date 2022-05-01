@@ -25,3 +25,13 @@ freq[num]++;
 }
 return count;
 **Using HashMap**:
+public int numIdenticalPairs(int[] nums) {
+int count = 0;
+Map<Integer, Integer> map = new HashMap<>();
+for(int num:nums){
+int val = map.getOrDefault(num, 0);
+count += val;
+map.put(num,val+1);
+}
+return count;
+}
