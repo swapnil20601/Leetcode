@@ -1,17 +1,17 @@
 class Solution {
     public int minimumSum(int num) {
-        int[] digits = new int[4];
-        int i = 0;
-        while(num > 0){
-            digits[i]= num % 10;
-            num /= 10;
-            i++;
-        }
+        //Covert number to String & create char[] out of it so that you can sort array
+        char[] ch = String.valueOf(num).toCharArray();
         
-        Arrays.sort(digits);
+        Arrays.sort(ch);
         
-        int num1 = digits[0] * 10 + digits[2];
-        int num2= digits[1]* 10 + digits[3];
-        return num1+num2;
+        //Convert 0th & 2nd char to int and Integer.parseInt() takes only String arg, we convert those 2 chars into String
+        int num1 = Integer.parseInt(""+ch[0] + ch[2]);
+        
+        //Slly, Convert 1stth & 3rd char to int and convert those 2 chars into String
+        int num2 = Integer.parseInt(""+ch[1] + ch[3]);
+        
+        return num1 + num2;
+        
     }
 }
