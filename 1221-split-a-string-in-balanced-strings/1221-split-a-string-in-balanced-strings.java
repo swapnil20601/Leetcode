@@ -1,20 +1,20 @@
 class Solution {
     public int balancedStringSplit(String s) {
-        int balancedCounter = 0, leftCounter = 0, rightCounter = 0;
+        int counter = 0, res = 0;
         
         for(int i = 0; i < s.length(); i++){
             if(s.charAt(i) == 'L'){
-                leftCounter++;
+                counter++;
             }
             else {
-                rightCounter++;
+                counter--;
             }
             
-            if(rightCounter == leftCounter){
-                balancedCounter++;
+            if(counter == 0){
+                res++;
             }
         }
         
-        return balancedCounter;
+        return res;
     }
 }
