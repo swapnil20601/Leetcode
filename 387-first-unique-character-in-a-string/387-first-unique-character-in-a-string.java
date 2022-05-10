@@ -1,21 +1,19 @@
 class Solution {
     public int firstUniqChar(String s) {
-        boolean isRepeating;
         
         if(s.length() == 0 || s == null){
             return -1;
         }
         
+        int[] freq = new int[26];
+        
+        for(char c : s.toCharArray()){
+            freq[c-'a']++;
+        }
+        
         for(int i = 0; i < s.length(); i++){
-            isRepeating = false;
-            for(int j = 0; j < s.length(); j++){
-                if(i !=j && s.charAt(i) == s.charAt(j)){
-                    isRepeating = true;
-                    break;
-                }
-            }
-            
-            if(!isRepeating){
+            int index = s.charAt(i) - 'a';
+            if(freq[index] < 2){
                 return i;
             }
         }
