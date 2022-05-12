@@ -1,17 +1,17 @@
 class Solution {
     public int numberOfSteps(int num) {
         int steps = 0;
-        
+        if(num == 0) return 0;
         while(num > 0){
-            if(num % 2 == 0){
-                num = num/2;
+            if((num & 1) == 0){
+                steps++;
             }
             else{
-                num -= 1;
+                steps = steps + 2; //bcoz we are subtracting 1 & also since n
             }
-            steps++;
+            num = num >> 1;
         }
         
-        return steps;
+        return steps-1;
     }
 }
