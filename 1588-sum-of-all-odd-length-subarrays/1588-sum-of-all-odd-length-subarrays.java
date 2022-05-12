@@ -1,16 +1,18 @@
 class Solution {
     public int sumOddLengthSubarrays(int[] arr) {
+        int totalSum = 0;
         int n = arr.length;
-        int res = 0;
         
-        for(int i = 0; i < n ; i++){
-            int start = n - i;
-            int end = i + 1;
-            int total = start * end;
-            int odd = (total % 2 == 0) ? total/2 : (total/2)+1;
-            res += odd * arr[i];
+        for(int i = 0; i < n; i++){            
+            for(int j = i; j < n; j++){
+                if((j-i+1)% 2 == 1){
+                    for(int k = i; k <= j; k++){
+                        totalSum += arr[k];
+                    }
+                }
+            }
+            
         }
-        
-        return res;
+        return totalSum;
     }
 }
