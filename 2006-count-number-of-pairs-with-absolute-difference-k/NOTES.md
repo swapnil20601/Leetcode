@@ -1,12 +1,19 @@
-Map<Integer, Integer> map = new HashMap<>();
-int pairs = 0;
-for(int ele: nums){
-if(map.containsKey(ele-k)){
-pairs += map.get(ele-k);
+**Brute Force: TC = O(N^2), SC = O(1)**
+​
+public int countKDifference(int[] nums, int k) {
+int count = 0;
+int n = nums.length;
+for(int i = 0; i < n; i++){
+for(int j = i+1; j < n; j++){
+if(Math.abs(nums[i] - nums[j]) == k){
+count++;
 }
-if(map.containsKey(ele+k)){
-pairs += map.get(ele+k);
 }
-map.put(ele, map.getOrDefault(ele,0)+1);
 }
-return pairs;
+return count;
+}
+​
+​
+​
+​
+​
