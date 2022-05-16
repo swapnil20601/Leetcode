@@ -3,19 +3,17 @@ class Solution {
         int n = matrix.length;
         
         for(int r = 0; r < n; r++){
-            boolean[] rowVisited = new boolean[n+1];
-            boolean[] colVisited = new boolean[n+1];
+           Set<Integer> row = new HashSet<>();
+           Set<Integer> col = new HashSet<>();
             
             for(int c = 0; c < n; c++){
                 int rowVal = matrix[r][c];
                 int colVal = matrix[c][r];
                 
-                if(rowVisited[rowVal] == true || colVisited[colVal] == true){
+                if(!row.add(rowVal) || !col.add(colVal)){
                     return false;
                 }
                 
-                rowVisited[rowVal] = true;
-                colVisited[colVal] = true;
             }
         }
         
