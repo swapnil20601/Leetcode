@@ -1,40 +1,26 @@
 class Solution {
     public String sortString(String s) {
         StringBuilder res = new StringBuilder();
-        Map<Character,Integer> map = new HashMap<>();
+        int[] bucket = new int[26];
         
-        for(char c : s.toCharArray()){
-            map.put(c, map.getOrDefault(c, 0) + 1);
+        for(int i = 0; i < s.length(); i++){
+            bucket[s.charAt(i) - 97]++;
         }
         
-        while(map.size() > 0){
-            //moving in forward direction
+        while(res.length() < s.length()){
             for(int i = 0; i < 26; i++){
-                char ch = (char)(i+97);
-                if(map.containsKey(ch)){
-                    res.append(ch);
-                    map.put(ch, map.get(ch) - 1);
-                    
-                    if(map.get(ch) == 0){
-                    map.remove(ch);
-                    }
+                if(bucket[i]-- > 0){
+                    res.append((char)(97+i));
                 }
             }
             
-            //moving in backward direction
             for(int i = 25; i >= 0; i--){
-                char ch = (char)(i+97);
-                if(map.containsKey(ch)){
-                    res.append(ch);
-                    map.put(ch, map.get(ch) - 1);
-                    
-                    if(map.get(ch) == 0){
-                    map.remove(ch);
-                    }
+                if(bucket[i]-- > 0){
+                    res.append((char)(97+i));
                 }
             }
         }
         
-        return String.valueOf(res);
+        return new String(res);//OR res.toString(); OR String.valueOf(res)
     }
 }
