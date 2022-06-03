@@ -1,26 +1,40 @@
 class Solution {
     public String sortString(String s) {
-        int[] freq = new int[26];
         StringBuilder res = new StringBuilder();
+        Map<Character,Integer> map = new HashMap<>();
         
-        for(int i = 0; i < s.length(); i++){
-            freq[s.charAt(i) - 'a']++;
+        for(char c : s.toCharArray()){
+            map.put(c, map.getOrDefault(c, 0) + 1);
         }
         
-        while(res.length() < s.length()){
+        while(map.size() > 0){
+            //moving in forward direction
             for(int i = 0; i < 26; i++){
-                if(freq[i]-- > 0){
-                    res.append((char)(i+97));
+                char ch = (char)(i+97);
+                if(map.containsKey(ch)){
+                    res.append(ch);
+                    map.put(ch, map.get(ch) - 1);
+                    
+                    if(map.get(ch) == 0){
+                    map.remove(ch);
+                    }
                 }
             }
             
+            //moving in backward direction
             for(int i = 25; i >= 0; i--){
-                if(freq[i]-- > 0){
-                    res.append((char)(i+97));
+                char ch = (char)(i+97);
+                if(map.containsKey(ch)){
+                    res.append(ch);
+                    map.put(ch, map.get(ch) - 1);
+                    
+                    if(map.get(ch) == 0){
+                    map.remove(ch);
+                    }
                 }
             }
         }
         
-        return res.toString();
+        return String.valueOf(res);
     }
 }
