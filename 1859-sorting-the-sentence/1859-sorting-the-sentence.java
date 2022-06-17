@@ -11,12 +11,16 @@ class Solution {
             res[index] = word.substring(0,word.length()-1);
         }
         
-        for(int i = 0; i < res.length-1;i++){
-            sb.append(res[i]).append(" ");
+        // for(int i = 0; i < res.length-1;i++){
+        //     sb.append(res[i]).append(" ");
+        // }
+        
+        for(String word : res){
+            sb.append(word).append(" ");
         }
         
-        sb.append(res[res.length-1]);
-        
-        return sb.toString();
+        //sb.append(res[res.length-1]);
+    
+        return String.valueOf(sb).trim();
     }
 }
