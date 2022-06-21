@@ -3,20 +3,21 @@ class Solution {
         if(needle.length() == 0) {
 			return 0;
 		}
+        
+        //if len(needle) is greater than haystack, then for sure needle could not be present in haystack so return -1 directly
 		if(haystack.length() < needle.length()) {
 			return -1;
 		}
-		if(haystack.length() == needle.length()) {
-			return haystack.equals(needle) ? 0 : -1;
-		}
-		for(int i=0; i < haystack.length(); i++) {
-			int hIndex = i;
-			int nIndex = 0;
-			while(hIndex < haystack.length() && nIndex < needle.length() && haystack.charAt(hIndex) == needle.charAt(nIndex)) {
-				hIndex++;
-				nIndex++;
+		
+		for(int i= 0; i < haystack.length(); i++) {
+			int h = i;
+			int j = 0;
+			while(h < haystack.length() && j < needle.length() && haystack.charAt(h) == needle.charAt(j)) {
+				j++;
+				h++;
 			}
-			if(nIndex == needle.length()) {
+            
+			if(j == needle.length()) {
 				return i;
 			}
 		}
