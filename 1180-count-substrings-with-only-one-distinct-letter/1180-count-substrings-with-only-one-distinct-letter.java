@@ -1,22 +1,22 @@
 class Solution {
-
     public int countLetters(String s) {
-        if(s.length() == 0 || s == null){
-            return 0;
+        int[] res = new int[s.length()];
+        int i = 0, j = 0, n = res.length, count = 0;
+        int total = 0;
+        
+        while(i < n && j < n){
+            if(s.charAt(i) == s.charAt(j)){
+                count += 1;
+                res[j++] = count;
+            }
+            else{
+                count = 0;
+                i = j;
+            }
         }
         
-        int total = 1;
-        int count = 1;
-        
-        for(int i = 1; i < s.length(); i++){
-            if(s.charAt(i) == s.charAt(i-1)){
-                count++;
-            }
-            else {
-                count = 1;
-            }
-            
-            total += count;
+        for(int val: res){
+            total += val;
         }
         
         return total;
