@@ -1,25 +1,24 @@
 class Solution {
     public String reverseWords(String s) {
-        char[] arr = s.toCharArray();
-        int i = 0;
+        char[] words = s.toCharArray();
+        int j = 0;
         
-        for(int j = 0; j < arr.length; j++){
-            if(arr[j] == ' '){
-                reverseChars(arr, i, j-1);
-                i = j + 1;
+        for(int i = 0; i < words.length && j <= words.length; j++){
+            if(j == words.length || words[j] == ' '){
+                rev(words,i,j-1);
+                i = j+1;
             }
         }
-        reverseChars(arr, i, arr.length-1);
         
-        return String.valueOf(arr);
+        return String.valueOf(words);
     }
     
-    public void reverseChars(char[] arr, int i, int j){
-        while(i < j){
-            char temp = arr[i];
-            arr[i++] = arr[j];
-            arr[j--] = temp;
+    private void rev(char[] arr, int i, int j){
+            while(i<j){
+                char temp = arr[i];
+                arr[i++] = arr[j];
+                arr[j--] = temp;
+            }
         }
-    }
     
 }
