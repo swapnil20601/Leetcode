@@ -5,7 +5,7 @@ for(int i = 0; i < ch.length; i = i + 2*k){
 j = Math.min(ch.length - 1, i+k-1);
 reverse(ch, i , j);
 }
-return String.valueOf(ch);
+return String.valueOf(ch);// return new String(ch);
 }
 private void reverse(char[] arr, int start, int end){
 while(start < end){
