@@ -12,19 +12,14 @@ class Solution {
     }
     
     private boolean isSelfDividing(int n){
-        if(n >= 1 && n<10){
-            return true;
-        }
-        
         int temp = n;
+        
         while(temp > 1){
             int x = temp%10;
-            if(x != 0 && n%x == 0){
-                temp = temp/10;
-            }
-            else {
+            if(x == 0 || n%x != 0){
                 return false;
             }
+            temp = temp / 10;
         }
         
         return true;
