@@ -13,14 +13,6 @@ class Solution:
                 slow = slow.next
         return slow
 
-
-        # if head:
-        #     fast=slow=head
-        #     while fast and fast.next:
-        #         fast = fast.next.next
-        #         slow=slow.next
-        # return slow
-
     def reverseLL(self,prev,curr):
         #Basecase
         if not curr:
