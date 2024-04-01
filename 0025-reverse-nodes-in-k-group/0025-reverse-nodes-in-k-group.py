@@ -31,33 +31,36 @@ class Solution:
             #first get kth node
             kthNode = self.getKthNode(temp,k)
 
+             #If above fun returns None then we know there are no K nodes in grp. So just link
+             # previously reversed group of k nodes to whatever is left in LL. 
+             #And what is this whatever left in LL? Its actually temp
             if not kthNode:
+                # we do this check becoz what if in the 1st group itself there are no k nodes?
+                #To undersatnd better, dry run on 1->2, k = 3  
                 if prev:
                     prev.next = temp
                 break
 
 
-            #If above fun does nor return None then we know there are k nodes 
-            #in next group to reverse
-            # store add of next node in nextNode ptr
+            #If above fun does not return None then it means there are k nodes 
+            #to reverse. So sepaare that group of k nodes from entire LL becaoz
+            # we cannot reverse just a part of LL
             nextNode = kthNode.next
-            #break the link of kth node to spearate the LL so that
-            #we can pass this group of k nodes to reverseLL() to reverse it
             kthNode.next = None
 
             #Reverse LL
             self.reverseLinkedList(temp)
 
             #Now identify if you have reversed 1st group of k nodes or later groups
-            #of k nodes bczo we want to update head accordingly
-
+            #of k nodes bczo we want to update head accordingly.
             #if it is the 1st group of k nodes, then ONLY update head to KthNode. 
+            #Else link previously reversed group of k nodes to currently reversed group of k nodes
             if head is temp:
                 head = kthNode
             else:
                 prev.next = kthNode
             
-            #Now just link temp to nextNode and move temp to nextNode
+            #Now just update prev & temp ptrs 
             prev = temp
             temp = nextNode
 
