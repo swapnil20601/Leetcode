@@ -36,14 +36,14 @@ class Solution:
              #And what is this whatever left in LL? Its actually temp
             if not kthNode:
                 # we do this check becoz what if in the 1st group itself there are no k nodes?
-                #To undersatnd better, dry run on 1->2, k = 3  
+                #To understand better, dry run on 1->2, k = 3  
                 if prev:
                     prev.next = temp
                 break
 
 
             #If above fun does not return None then it means there are k nodes 
-            #to reverse. So sepaare that group of k nodes from entire LL becaoz
+            #to reverse. So separate that group of k nodes from entire LL becoz
             # we cannot reverse just a part of LL
             nextNode = kthNode.next
             kthNode.next = None
@@ -52,7 +52,7 @@ class Solution:
             self.reverseLinkedList(temp)
 
             #Now identify if you have reversed 1st group of k nodes or later groups
-            #of k nodes bczo we want to update head accordingly.
+            #of k nodes bcoz we want to update head accordingly.
             #if it is the 1st group of k nodes, then ONLY update head to KthNode. 
             #Else link previously reversed group of k nodes to currently reversed group of k nodes
             if head is temp:
