@@ -7,10 +7,7 @@ class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         fast = head
         for _ in range(n):
-            if fast:
-                fast = fast.next
-            else:
-                return head
+           fast = fast.next
         
         slow = head
 
