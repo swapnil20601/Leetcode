@@ -19,7 +19,7 @@ class Solution:
             t2 = t2.next
 
             #If t1 & t2 meet, then it is the intersection point
-            if t1 == t2:
+            if t1 is t2:
                 return t1
 
             #If t1 reached last node, then move it to head2
