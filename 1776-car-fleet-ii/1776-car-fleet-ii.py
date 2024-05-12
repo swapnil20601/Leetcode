@@ -5,7 +5,9 @@ class Solution:
         stack = []
 
         for i in range(n-1,-1,-1):
-             #If you reach here it means collison will not happend betn current car & stack.top's car
+            #check if there is any car ahead of current car & if yes, then check if speed of curr car <= speed of front cars?
+            #If yes, then it means they will never collide. So pop them stack bcoz we are storing only those cars in stack
+            # which will collide
             while stack and cars[i][1] <= cars[stack[-1]][1]:
                 stack.pop()
             
@@ -14,7 +16,8 @@ class Solution:
             while stack and cars[i][1] > cars[stack[-1]][1]:
                 #Find collision_time between current car & stack.top's car
                 collision_time = (cars[stack[-1]][0] - cars[i][0]) / abs(cars[i][1] - cars[stack[-1]][1])
-                #Now we check if collision_time of current car <= collision_time of stack.top's car. If yes, then we set 
+                #Now we check if collision_time of stack.top's car == -1, it means collison abhi tak hua hi nahi. 
+                #OR if collision_time of current car <= collision_time of stack.top's car. If yes, then we save  
                 #collision_time of current car in answer & break out of loop
                 if ans[stack[-1]] == -1 or collision_time <= ans[stack[-1]]:
                     ans[i] = collision_time
