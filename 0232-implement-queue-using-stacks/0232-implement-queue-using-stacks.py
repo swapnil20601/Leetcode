@@ -6,25 +6,30 @@ class MyQueue:
         
 
     def push(self, x: int) -> None:
-        while self.S1:
-            self.S2.append(self.S1.pop())
         self.S1.append(x)
-        while self.S2:
-            self.S1.append(self.S2.pop())
-        
 
     def pop(self) -> int:
-        if self.S1:
-            return self.S1.pop()
+        #if s2 is empty, transfer all elemenst from s1 -> s2 & then pop from S2
+        if not self.S2:
+            while self.S1:
+                self.S2.append(self.S1.pop())
+        #Otherseise directly pop from S2
+        return self.S2.pop()
+
+
         
 
     def peek(self) -> int:
-        if self.S1:
-            return self.S1[-1]
-        
+        #if s2 is empty, transfer all elemenst from s1 -> s2 & return S2 ka top
+        if not self.S2:
+            while self.S1:
+                self.S2.append(self.S1.pop())
+        #Otherseise just return S2 ka top
+        return self.S2[-1]
 
+        
     def empty(self) -> bool:
-        return not self.S1
+        return not self.S1 and not self.S2
         
 
 
