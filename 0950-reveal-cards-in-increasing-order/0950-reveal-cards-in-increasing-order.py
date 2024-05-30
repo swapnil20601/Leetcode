@@ -1,23 +1,24 @@
 class Solution:
     def deckRevealedIncreasing(self, deck: List[int]) -> List[int]:
         n = len(deck)
+        deq = deque(range(n))
         res = [0] * n
         deck.sort()
-        i,x = 0,0
-        skip = False
-
-        while i < n:
-            if res[x] == 0:
-                if not skip:
-                    res[x] = deck[i]
-                    i += 1
-                    skip = True
-                else:
-                    skip = False
-
-            x = (x+1) % n
-
+        
+        for i in range(n):
+            #rule 1
+            if deq:
+                idx = deq.popleft()
+                res[idx] = deck[i]
+            
+            #Rule 2:
+            if deq:
+                deq.append(deq.popleft())
+        
         return res
+
+
+
             
 
         
