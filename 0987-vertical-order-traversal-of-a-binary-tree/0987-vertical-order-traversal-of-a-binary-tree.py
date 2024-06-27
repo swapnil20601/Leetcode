@@ -11,7 +11,7 @@ class Solution:
             return
         
         #insert in map -:  col -> {row:(node's value)}
-        map[col].append((row,root.val))
+        map[col].append([row,root.val])
         self.dfs(root.left,map,row+1,col-1)
         self.dfs(root.right,map,row+1,col+1)
 
@@ -26,7 +26,7 @@ class Solution:
         #column-wise sorting
         for col in sorted(map.keys()):
             #row-wise sorting
-            map[col].sort(key=lambda x: (x[0], x[1]))
+            map[col].sort(key=lambda x: [x[0], x[1]])
             res.append([val for _, val in map[col]])
         
         return res
