@@ -5,31 +5,28 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def dfs(self,root,map,row,col):
-        #Base case
-        if not root:
-            return
-        
-        #insert in map -:  col -> {row:(node's value)}
-        map[col].append([row,root.val])
-        self.dfs(root.left,map,row+1,col-1)
-        self.dfs(root.right,map,row+1,col+1)
-
-        
     def verticalTraversal(self, root: Optional[TreeNode]) -> List[List[int]]:
-        res = []
-        #col -> [row -> [list of nodes]]
+        result = []
         map = defaultdict(list)
-        #dfs call to fill the map
-        self.dfs(root,map,0,0)
-        #take care of sorting & fill the res
-        #column-wise sorting
+        if not root:
+            return result
+
+        queue = deque([(root, 0, 0)])
+
+        while queue:
+            node, row, col = queue.popleft()
+            map[col].append((row, node.val))
+
+            if node.left:
+                queue.append((node.left, row + 1, col - 1))
+            if node.right:
+                queue.append((node.right, row + 1, col + 1))
+
         for col in sorted(map.keys()):
-            #row-wise sorting
-            map[col].sort(key=lambda x: [x[0], x[1]])
-            res.append([val for _, val in map[col]])
+            map[col].sort(key=lambda x: (x[0], x[1]))
+            result.append([val for _, val in map[col]])
         
-        return res
+        return result 
 
     
         
