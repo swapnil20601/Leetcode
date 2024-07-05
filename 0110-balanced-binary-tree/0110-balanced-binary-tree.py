@@ -9,16 +9,23 @@ class Solution:
         if not root:
             return (0,True)
         
-        left_ht = self.solve(root.left,res)
-        right_ht = self.solve(root.right,res)
-        diff = abs(left_ht[0] - right_ht[0])
-        ht = 1 + max(left_ht[0], right_ht[0])
-        return (ht,left_ht[1] and right_ht[1] and diff <= 1)
+        #Recursively call for left subtree. It will return a tuple : (left subtree's height, boolean val if left subtree is balanced).
+        #Unpack those values left_ht = res[0] & is_left_balanced = res[1]
+        left_ht,is_left_balanced = self.solve(root.left,res)
 
-        # left_ht,l_bal = self.solve(root.left,res)
-        # right_ht,r_bal = self.solve(root.right,res)
-        # return (1+max(left_ht,right_ht), l_bal and r_bal and abs(left_ht - right_ht) <= 1)
-        
+        #Recursively call for right subtree. It will return a tuple : (right subtree's height, boolean val if right subtree is balanced).
+        #Unpack those values right_ht = res[0] & is_right_balanced = res[1]
+        right_ht,is_right_balanced = self.solve(root.right,res)
+
+        #Find absolute diff between left-subtree & right-subtrees's height
+        diff = abs(left_ht - right_ht)
+
+        #Find new height as we do usually by taking in account current node
+        curr_ht = 1 + max(left_ht, right_ht)
+
+        #Return updated values of res[]
+        return (curr_ht,is_left_balanced and is_right_balanced and diff <= 1)
+
 
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
         ans = self.solve(root,(0,True))
