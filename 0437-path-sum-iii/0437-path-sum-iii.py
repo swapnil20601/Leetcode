@@ -5,7 +5,7 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def __init__(self):
+    def __init__(self): 
         self.ans = 0
 
     def solve(self,root, target):
