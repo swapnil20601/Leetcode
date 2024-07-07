@@ -5,27 +5,26 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def __init__(self): 
-        self.ans = 0
-
-    def solve(self,root, target):
-        if not root:
-            return
-        
-        if target == root.val:
-            self.ans += 1
-
-        self.solve(root.left, target - root.val)
-        self.solve(root.right, target - root.val)
-
-    def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
+    def dfs(self,root,prefix_sum,target,map):
         if not root:
             return 0
         
-        self.solve(root,targetSum)
-        self.pathSum(root.left,targetSum)
-        self.pathSum(root.right,targetSum)
+        prefix_sum += root.val
+        paths = map.get(prefix_sum - target, 0)
 
-        return self.ans
+        map[prefix_sum] = map.get(prefix_sum, 0) + 1
+
+        paths = paths + self.dfs(root.left,prefix_sum,target,map) +  self.dfs(root.right,prefix_sum,target,map)
+
+        #Now backtrack so that frequencies on root.left,map,target,prefix_sum are updated correctly in map
+        map[prefix_sum] = map[prefix_sum] - 1
+
+        return paths
+
+
+    def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
+        map = {0:1}
+        
+        return self.dfs(root,0,targetSum,map)
         
         
