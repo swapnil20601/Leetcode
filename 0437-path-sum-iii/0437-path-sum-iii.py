@@ -5,29 +5,27 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def solve(self,node,target,res):
+    def solve(self,node,target):
         if not node:
-            return
+            return 0
         
-        if target == node.val:
-            res[0] = res[0] + 1
+        count = 0
+        if node.val == target:
+            count = 1
         
-        self.solve(node.left,target - node.val,res)
-        self.solve(node.right,target - node.val,res)
+        newSum = target - node.val
+
+        count += self.solve(node.left,newSum)
+        count += self.solve(node.right,newSum)
+        return count
         
 
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
         if not root:
             return 0
 
-        res = [0]
-
-        self.solve(root,targetSum,res)
-        if root.left:
-            res[0] = res[0] + self.pathSum(root.left,targetSum)
-        
-        if root.right:
-            res[0] = res[0] + self.pathSum(root.right,targetSum)
-        return res[0]
-
+        left_count = self.pathSum(root.left,targetSum)
+        right_count = self.pathSum(root.right,targetSum)
+        paths = self.solve(root,targetSum)
+        return left_count + right_count + paths
           
