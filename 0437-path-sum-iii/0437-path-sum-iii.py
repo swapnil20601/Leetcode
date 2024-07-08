@@ -5,26 +5,29 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def dfs(self,root,prefix_sum,target,map):
-        if not root:
-            return 0
+    def __init__(self):
+        self.count = 0
+        self.k = 0
+        self.h = defaultdict(int)
+
+    def dfs(self, node, currSum):
+        if not node:
+            return
         
-        prefix_sum += root.val
-        paths = map.get(prefix_sum - target, 0)
-
-        map[prefix_sum] = map.get(prefix_sum, 0) + 1
-
-        paths = paths + self.dfs(root.left,prefix_sum,target,map) +  self.dfs(root.right,prefix_sum,target,map)
-
-        #Now backtrack so that frequencies on root.left,map,target,prefix_sum are updated correctly in map
-        map[prefix_sum] = map[prefix_sum] - 1
-
-        return paths
+        currSum += node.val
+        if currSum == self.k:
+            self.count += 1
+        self.count += self.h[currSum - self.k]
+        self.h[currSum] += 1
+        self.dfs(node.left, currSum)
+        self.dfs(node.right, currSum)
+        self.h[currSum] -= 1
 
 
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
-        map = {0:1}
+        self.k = targetSum
+        self.dfs(root, 0)
+        return self.count
         
-        return self.dfs(root,0,targetSum,map)
         
         
