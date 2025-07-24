@@ -1,11 +1,16 @@
 class Solution {
     public int singleNumber(int[] nums) {
-        int n = nums.length;
-        Arrays.sort(nums);
+        HashMap<Integer,Integer> map = new HashMap<>();
+        for(int x:nums){
+            int val = map.getOrDefault(x,0) + 1;
+            map.put(x,val);
+        }
 
-        for(int i = 0; i < n; i+=2){
-            if((i== n-1) || (nums[i] != nums[i+1])){
-                return nums[i];
+        for(Map.Entry<Integer,Integer> entry : map.entrySet()){
+            int key = entry.getKey();
+            int val = entry.getValue();
+            if(val == 1){
+                return key;
             }
         }
         return -1;
