@@ -9,6 +9,7 @@
 | ------- | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/swapnil20601/Leetcode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0283-move-zeroes](https://github.com/swapnil20601/Leetcode/tree/main/0283-move-zeroes/) | Easy |
+| [0303-range-sum-query-immutable](https://github.com/swapnil20601/Leetcode/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0724-find-pivot-index](https://github.com/swapnil20601/Leetcode/tree/main/0724-find-pivot-index/) | Easy |
 | [1480-running-sum-of-1d-array](https://github.com/swapnil20601/Leetcode/tree/main/1480-running-sum-of-1d-array/) | Easy |
 ## Two Pointers
@@ -19,6 +20,7 @@
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0303-range-sum-query-immutable](https://github.com/swapnil20601/Leetcode/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0724-find-pivot-index](https://github.com/swapnil20601/Leetcode/tree/main/0724-find-pivot-index/) | Easy |
 | [1480-running-sum-of-1d-array](https://github.com/swapnil20601/Leetcode/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [2485-find-the-pivot-integer](https://github.com/swapnil20601/Leetcode/tree/main/2485-find-the-pivot-integer/) | Easy |
@@ -26,4 +28,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2485-find-the-pivot-integer](https://github.com/swapnil20601/Leetcode/tree/main/2485-find-the-pivot-integer/) | Easy |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0303-range-sum-query-immutable](https://github.com/swapnil20601/Leetcode/tree/main/0303-range-sum-query-immutable/) | Easy |
 <!---LeetCode Topics End-->
