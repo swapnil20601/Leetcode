@@ -2,8 +2,8 @@ class Solution {
     public long countFairPairs(int[] nums, int lower, int upper) {
         Arrays.sort(nums);  
         long lessThanLower = countPairs(nums, lower);
-        long uptoUpper = countPairs(nums, upper+1);
-        return uptoUpper - lessThanLower;
+        long lessThanUpper = countPairs(nums, upper+1);
+        return lessThanUpper - lessThanLower;
     }
 
     private long countPairs(int[] arr, int target){
