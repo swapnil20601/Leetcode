@@ -1,6 +1,33 @@
 class Solution {
     public long countFairPairs(int[] nums, int lower, int upper) {
         Arrays.sort(nums);  
+        long lessThanLower = countPairs(nums, lower);
+        long uptoUpper = countPairs(nums, upper+1);
+        return uptoUpper - lessThanLower;
+    }
+
+    private long countPairs(int[] arr, int target){
+        int left = 0, right = arr.length-1;
+        long ans = 0L;
+        while(left < right){
+            long sum = arr[left] + arr[right];
+            if(sum < target){
+                ans += (right - left);
+                left++;
+            }
+            else{
+                right--;
+            }
+        }
+        return ans;
+    }
+}
+
+/** Binary Search Approach:
+
+class Solution {
+    public long countFairPairs(int[] nums, int lower, int upper) {
+        Arrays.sort(nums);  
         long res = 0L;
         int n = nums.length;
         for(int i = 0; i < n; i++){
@@ -44,3 +71,7 @@ class Solution {
         return index;
     }
 }
+
+
+
+ */
