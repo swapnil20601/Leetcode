@@ -7,6 +7,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/swapnil20601/Leetcode/tree/main/0011-container-with-most-water/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/swapnil20601/Leetcode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0162-find-peak-element](https://github.com/swapnil20601/Leetcode/tree/main/0162-find-peak-element/) | Medium |
 | [0283-move-zeroes](https://github.com/swapnil20601/Leetcode/tree/main/0283-move-zeroes/) | Easy |
@@ -20,6 +21,7 @@
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/swapnil20601/Leetcode/tree/main/0011-container-with-most-water/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/swapnil20601/Leetcode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0125-valid-palindrome](https://github.com/swapnil20601/Leetcode/tree/main/0125-valid-palindrome/) | Easy |
 | [0165-compare-version-numbers](https://github.com/swapnil20601/Leetcode/tree/main/0165-compare-version-numbers/) | Medium |
@@ -60,4 +62,8 @@
 | ------- | ------- |
 | [2563-count-the-number-of-fair-pairs](https://github.com/swapnil20601/Leetcode/tree/main/2563-count-the-number-of-fair-pairs/) | Medium |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/swapnil20601/Leetcode/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0011-container-with-most-water](https://github.com/swapnil20601/Leetcode/tree/main/0011-container-with-most-water/) | Medium |
 <!---LeetCode Topics End-->
