@@ -14,6 +14,7 @@
 | [0283-move-zeroes](https://github.com/swapnil20601/Leetcode/tree/main/0283-move-zeroes/) | Easy |
 | [0303-range-sum-query-immutable](https://github.com/swapnil20601/Leetcode/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0724-find-pivot-index](https://github.com/swapnil20601/Leetcode/tree/main/0724-find-pivot-index/) | Easy |
+| [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/swapnil20601/Leetcode/tree/main/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/swapnil20601/Leetcode/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [2563-count-the-number-of-fair-pairs](https://github.com/swapnil20601/Leetcode/tree/main/2563-count-the-number-of-fair-pairs/) | Medium |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/swapnil20601/Leetcode/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
@@ -69,4 +70,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/swapnil20601/Leetcode/tree/main/0011-container-with-most-water/) | Medium |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/swapnil20601/Leetcode/tree/main/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | Medium |
 <!---LeetCode Topics End-->
