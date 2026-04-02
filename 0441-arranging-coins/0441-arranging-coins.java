@@ -1,13 +1,22 @@
 class Solution {
     public int arrangeCoins(int n) {
-        int i = 1;
-        while(n >= 0){
-            if(n < i){
-                return i-1;
+        int low = 1;
+        int high = n;
+        int ans = -1;
+        while(low <= high){
+            int mid = low+(high-low)/2;
+            if(isPossible(mid,n)){
+                ans = mid;
+                low = mid+1;
             }
-            n -= i;
-            i++;
+            else{
+                high = mid-1;
+            }
         }
-        return -1;
+        return ans;
+    }
+
+    private boolean isPossible(int row, int n){
+        return (row*(row+1)/2) <= n;
     }
 }
