@@ -17,6 +17,7 @@ class Solution {
     }
 
     private boolean isPossible(int row, int n){
-        return (row*(row+1)/2) <= n;
+        long number_of_coins = (long) row*(row+1)/2;
+        return number_of_coins <= n;
     }
 }
