@@ -45,6 +45,7 @@
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0441-arranging-coins](https://github.com/swapnil20601/Leetcode/tree/main/0441-arranging-coins/) | Easy |
 | [2485-find-the-pivot-integer](https://github.com/swapnil20601/Leetcode/tree/main/2485-find-the-pivot-integer/) | Easy |
 ## Design
 | Problem Name | Difficulty |
@@ -54,6 +55,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0162-find-peak-element](https://github.com/swapnil20601/Leetcode/tree/main/0162-find-peak-element/) | Medium |
+| [0441-arranging-coins](https://github.com/swapnil20601/Leetcode/tree/main/0441-arranging-coins/) | Easy |
 | [0875-koko-eating-bananas](https://github.com/swapnil20601/Leetcode/tree/main/0875-koko-eating-bananas/) | Medium |
 | [2187-minimum-time-to-complete-trips](https://github.com/swapnil20601/Leetcode/tree/main/2187-minimum-time-to-complete-trips/) | Medium |
 | [2563-count-the-number-of-fair-pairs](https://github.com/swapnil20601/Leetcode/tree/main/2563-count-the-number-of-fair-pairs/) | Medium |
