@@ -20,6 +20,7 @@
 | [1480-running-sum-of-1d-array](https://github.com/swapnil20601/Leetcode/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/swapnil20601/Leetcode/tree/main/1760-minimum-limit-of-balls-in-a-bag/) | Medium |
 | [2187-minimum-time-to-complete-trips](https://github.com/swapnil20601/Leetcode/tree/main/2187-minimum-time-to-complete-trips/) | Medium |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/swapnil20601/Leetcode/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2563-count-the-number-of-fair-pairs](https://github.com/swapnil20601/Leetcode/tree/main/2563-count-the-number-of-fair-pairs/) | Medium |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/swapnil20601/Leetcode/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
 | [3355-zero-array-transformation-i](https://github.com/swapnil20601/Leetcode/tree/main/3355-zero-array-transformation-i/) | Medium |
@@ -84,4 +85,9 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/swapnil20601/Leetcode/tree/main/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | Medium |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/swapnil20601/Leetcode/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/swapnil20601/Leetcode/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 <!---LeetCode Topics End-->
