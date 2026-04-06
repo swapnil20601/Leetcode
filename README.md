@@ -50,6 +50,7 @@
 | ------- | ------- |
 | [0441-arranging-coins](https://github.com/swapnil20601/Leetcode/tree/main/0441-arranging-coins/) | Easy |
 | [2485-find-the-pivot-integer](https://github.com/swapnil20601/Leetcode/tree/main/2485-find-the-pivot-integer/) | Easy |
+| [2843-count-symmetric-integers](https://github.com/swapnil20601/Leetcode/tree/main/2843-count-symmetric-integers/) | Easy |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -93,4 +94,8 @@
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/swapnil20601/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/swapnil20601/Leetcode/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2843-count-symmetric-integers](https://github.com/swapnil20601/Leetcode/tree/main/2843-count-symmetric-integers/) | Easy |
 <!---LeetCode Topics End-->
