@@ -51,6 +51,7 @@
 | ------- | ------- |
 | [0441-arranging-coins](https://github.com/swapnil20601/Leetcode/tree/main/0441-arranging-coins/) | Easy |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/swapnil20601/Leetcode/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
+| [2413-smallest-even-multiple](https://github.com/swapnil20601/Leetcode/tree/main/2413-smallest-even-multiple/) | Easy |
 | [2485-find-the-pivot-integer](https://github.com/swapnil20601/Leetcode/tree/main/2485-find-the-pivot-integer/) | Easy |
 | [2843-count-symmetric-integers](https://github.com/swapnil20601/Leetcode/tree/main/2843-count-symmetric-integers/) | Easy |
 ## Design
@@ -104,4 +105,5 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/swapnil20601/Leetcode/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
+| [2413-smallest-even-multiple](https://github.com/swapnil20601/Leetcode/tree/main/2413-smallest-even-multiple/) | Easy |
 <!---LeetCode Topics End-->
