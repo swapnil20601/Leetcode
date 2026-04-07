@@ -50,6 +50,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0441-arranging-coins](https://github.com/swapnil20601/Leetcode/tree/main/0441-arranging-coins/) | Easy |
+| [1071-greatest-common-divisor-of-strings](https://github.com/swapnil20601/Leetcode/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/swapnil20601/Leetcode/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [2413-smallest-even-multiple](https://github.com/swapnil20601/Leetcode/tree/main/2413-smallest-even-multiple/) | Easy |
 | [2485-find-the-pivot-integer](https://github.com/swapnil20601/Leetcode/tree/main/2485-find-the-pivot-integer/) | Easy |
@@ -76,6 +77,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/swapnil20601/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0125-valid-palindrome](https://github.com/swapnil20601/Leetcode/tree/main/0125-valid-palindrome/) | Easy |
 | [0165-compare-version-numbers](https://github.com/swapnil20601/Leetcode/tree/main/0165-compare-version-numbers/) | Medium |
+| [1071-greatest-common-divisor-of-strings](https://github.com/swapnil20601/Leetcode/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
