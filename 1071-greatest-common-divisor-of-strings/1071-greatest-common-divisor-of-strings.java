@@ -1,3 +1,9 @@
+/*
+TC: O(n+m) + O(log min(n, m))
+where
+n = length of str1
+m = length of str2
+ */
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         if(!(str1+str2).equals(str2+str1)){
@@ -17,3 +23,4 @@ class Solution {
         return a;
     }
 }
+
