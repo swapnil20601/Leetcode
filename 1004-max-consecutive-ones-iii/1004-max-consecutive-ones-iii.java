@@ -8,14 +8,18 @@ class Solution {
         while(j < n){
             if(nums[j] == 0){
                 zeros++;
-                while(zeros > k){
-                    if(nums[i] == 0){
-                        zeros--;
-                    }
-                    i++;   
-                }
             }
-            ans = Math.max(ans, j-i+1);
+            //Valid condition. So capture ans/window
+            if(zeros <= k){
+                ans = Math.max(ans, j-i+1);
+            }
+            //This means invalid condititon. So shrink window
+            else{
+                if(nums[i] == 0){
+                    zeros--;
+                }
+                i++;
+            }
             j++;
         }
         
