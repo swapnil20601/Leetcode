@@ -89,6 +89,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/swapnil20601/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0125-valid-palindrome](https://github.com/swapnil20601/Leetcode/tree/main/0125-valid-palindrome/) | Easy |
 | [0165-compare-version-numbers](https://github.com/swapnil20601/Leetcode/tree/main/0165-compare-version-numbers/) | Medium |
+| [0424-longest-repeating-character-replacement](https://github.com/swapnil20601/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [1071-greatest-common-divisor-of-strings](https://github.com/swapnil20601/Leetcode/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
@@ -105,6 +106,7 @@
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/swapnil20601/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/swapnil20601/Leetcode/tree/main/0209-minimum-size-subarray-sum/) | Medium |
+| [0424-longest-repeating-character-replacement](https://github.com/swapnil20601/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0713-subarray-product-less-than-k](https://github.com/swapnil20601/Leetcode/tree/main/0713-subarray-product-less-than-k/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/swapnil20601/Leetcode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/swapnil20601/Leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
@@ -114,6 +116,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/swapnil20601/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0424-longest-repeating-character-replacement](https://github.com/swapnil20601/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/swapnil20601/Leetcode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/swapnil20601/Leetcode/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 ## Enumeration
