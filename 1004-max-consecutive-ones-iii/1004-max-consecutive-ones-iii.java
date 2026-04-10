@@ -5,15 +5,15 @@ class Solution {
         for(int i = 0; i < n; i++){
             int count = 0;
             for(int j = i; j < n; j++){
-                if(nums[j] == 1){
+                if(nums[j] == 0){
+                    count++;
+                }
+
+                if(count <= k){
                     ans = Math.max(ans, j-i+1);
                 }
                 else{
-                    if(count >= k){
-                        break;
-                    }
-                    ans = Math.max(ans, j-i+1);
-                    count++;
+                    break;
                 }
             }
         }
