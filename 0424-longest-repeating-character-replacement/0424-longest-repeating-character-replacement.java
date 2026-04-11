@@ -12,13 +12,9 @@ class Solution {
             hash[s.charAt(j)-'A']++;
             maxFreq = Math.max(maxFreq,hash[s.charAt(j)-'A']);
 
-            while((j-i+1) - maxFreq > k){
+            if((j-i+1) - maxFreq > k){
                 hash[s.charAt(i)-'A']--;
                 i++;
-                maxFreq = 0;
-                for(int ele : hash){
-                    maxFreq = Math.max(maxFreq,ele);
-                }
             }
 
             ans = Math.max(ans,j-i+1);
