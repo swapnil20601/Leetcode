@@ -45,6 +45,7 @@
 | [0125-valid-palindrome](https://github.com/swapnil20601/Leetcode/tree/main/0125-valid-palindrome/) | Easy |
 | [0165-compare-version-numbers](https://github.com/swapnil20601/Leetcode/tree/main/0165-compare-version-numbers/) | Medium |
 | [0283-move-zeroes](https://github.com/swapnil20601/Leetcode/tree/main/0283-move-zeroes/) | Easy |
+| [0876-middle-of-the-linked-list](https://github.com/swapnil20601/Leetcode/tree/main/0876-middle-of-the-linked-list/) | Easy |
 | [2563-count-the-number-of-fair-pairs](https://github.com/swapnil20601/Leetcode/tree/main/2563-count-the-number-of-fair-pairs/) | Medium |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/swapnil20601/Leetcode/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
 ## Prefix Sum
@@ -158,4 +159,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0907-sum-of-subarray-minimums](https://github.com/swapnil20601/Leetcode/tree/main/0907-sum-of-subarray-minimums/) | Medium |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0876-middle-of-the-linked-list](https://github.com/swapnil20601/Leetcode/tree/main/0876-middle-of-the-linked-list/) | Easy |
 <!---LeetCode Topics End-->
