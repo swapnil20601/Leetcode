@@ -33,16 +33,4 @@ class Solution {
 
         return true;
     }
-
-    private ListNode reverseList(ListNode head) {
-        ListNode curr = head, prev = null, forward = head;
-        while(curr != null){
-            forward = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = forward;
-        }
-        head = prev;
-        return head;
-    }
 }
