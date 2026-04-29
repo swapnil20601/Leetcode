@@ -15,19 +15,26 @@ class Solution {
         }
 
         ListNode curr = head;
-        ListNode prev = null;
+        ListNode tail = head;
 
-        k = k % getLength(head);
+        int len = getLength(head);
+        k = k % len;
 
-        for(int i = 0; i < k; i++){
-            while(curr.next != null){
-                prev = curr;
-                curr = curr.next;
-            }
-            curr.next = head;
-            head = curr;
-            prev.next = null;
+        //Step 1: Reach tail node & join it to head
+        while(curr.next != null){
+            curr = curr.next;
         }
+        curr.next = head;
+
+        //Step 2: reach to (len-k)th node
+        for(int i = 1; i < len-k; i++){
+            tail = tail.next;
+        }
+
+        //Step 3: Update new head & break the link after tail node
+        head = tail.next;
+        tail.next = null;
+
         return head;
     }
 
