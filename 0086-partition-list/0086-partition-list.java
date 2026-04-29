@@ -19,18 +19,18 @@ class Solution {
 
         ListNode curr = head;
         while(curr != null){
-            ListNode newNode = new ListNode(curr.val);
             if(curr.val < x){
-                s.next = newNode;
+                s.next = curr;
                 s = s.next;
             }
             else{
-                l.next = newNode;
+                l.next = curr;
                 l = l.next;
             }
             curr = curr.next;
         }
         s.next = large.next;
+        l.next = null;
         return small.next;
     }
 }
