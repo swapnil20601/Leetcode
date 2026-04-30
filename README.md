@@ -72,6 +72,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/swapnil20601/Leetcode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0204-count-primes](https://github.com/swapnil20601/Leetcode/tree/main/0204-count-primes/) | Medium |
 | [0441-arranging-coins](https://github.com/swapnil20601/Leetcode/tree/main/0441-arranging-coins/) | Easy |
+| [0445-add-two-numbers-ii](https://github.com/swapnil20601/Leetcode/tree/main/0445-add-two-numbers-ii/) | Medium |
 | [1071-greatest-common-divisor-of-strings](https://github.com/swapnil20601/Leetcode/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/swapnil20601/Leetcode/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [2413-smallest-even-multiple](https://github.com/swapnil20601/Leetcode/tree/main/2413-smallest-even-multiple/) | Easy |
@@ -152,6 +153,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/swapnil20601/Leetcode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0155-min-stack](https://github.com/swapnil20601/Leetcode/tree/main/0155-min-stack/) | Medium |
 | [0234-palindrome-linked-list](https://github.com/swapnil20601/Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
+| [0445-add-two-numbers-ii](https://github.com/swapnil20601/Leetcode/tree/main/0445-add-two-numbers-ii/) | Medium |
 | [0496-next-greater-element-i](https://github.com/swapnil20601/Leetcode/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/swapnil20601/Leetcode/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0739-daily-temperatures](https://github.com/swapnil20601/Leetcode/tree/main/0739-daily-temperatures/) | Medium |
@@ -179,6 +181,7 @@
 | [0206-reverse-linked-list](https://github.com/swapnil20601/Leetcode/tree/main/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/swapnil20601/Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0237-delete-node-in-a-linked-list](https://github.com/swapnil20601/Leetcode/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
+| [0445-add-two-numbers-ii](https://github.com/swapnil20601/Leetcode/tree/main/0445-add-two-numbers-ii/) | Medium |
 | [0876-middle-of-the-linked-list](https://github.com/swapnil20601/Leetcode/tree/main/0876-middle-of-the-linked-list/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
