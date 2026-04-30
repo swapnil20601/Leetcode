@@ -12,38 +12,29 @@ class Solution {
     public void reorderList(ListNode head) {
         if(head == null || head.next == null) return;
 
-        ListNode middle = getMiddleNode(head);
-        ListNode revHead = reverseLL(middle);
         ListNode curr = head;
         ListNode temp = null;
-        ListNode forward = null;
-        while(revHead.next != null){
-            temp = revHead.next;
-            forward = curr.next;
-            curr.next = revHead;
-            revHead.next = forward;
-            curr = forward;
-            revHead = temp;
-        }
-    }
+        Stack<ListNode> s = new Stack<>();
 
-    private ListNode getMiddleNode(ListNode head){
-        ListNode fast = head, slow = head;
-        while(fast != null && fast.next != null){
-            slow = slow.next;
-            fast = fast.next.next;
-        }
-        return slow;
-    }
-
-    private ListNode reverseLL(ListNode head){
-        ListNode prev = null, curr = head, n = null;
         while(curr != null){
-            n = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = n;
+            s.push(curr);
+            curr = curr.next;
         }
-        return prev;
+
+        curr = head;
+
+        //We pop top half nodes from stack. But stack size could be odd or even
+        //This is why we find ceil value of (stack.size()/2) to handle odd and even
+        //sizes of stack. Formula = (numerator + denominator - 1) / denominator
+        int ceil = (s.size() + 2 - 1) / 2;
+        while(s.size() > ceil){
+            ListNode topNode = s.pop();
+            temp = curr.next;
+            curr.next = topNode;
+            topNode.next = temp;
+            curr = temp;
+        }
+
+        curr.next = null;
     }
 }
