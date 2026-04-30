@@ -46,6 +46,7 @@
 | [0061-rotate-list](https://github.com/swapnil20601/Leetcode/tree/main/0061-rotate-list/) | Medium |
 | [0086-partition-list](https://github.com/swapnil20601/Leetcode/tree/main/0086-partition-list/) | Medium |
 | [0125-valid-palindrome](https://github.com/swapnil20601/Leetcode/tree/main/0125-valid-palindrome/) | Easy |
+| [0143-reorder-list](https://github.com/swapnil20601/Leetcode/tree/main/0143-reorder-list/) | Medium |
 | [0165-compare-version-numbers](https://github.com/swapnil20601/Leetcode/tree/main/0165-compare-version-numbers/) | Medium |
 | [0234-palindrome-linked-list](https://github.com/swapnil20601/Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0283-move-zeroes](https://github.com/swapnil20601/Leetcode/tree/main/0283-move-zeroes/) | Easy |
@@ -146,6 +147,7 @@
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0143-reorder-list](https://github.com/swapnil20601/Leetcode/tree/main/0143-reorder-list/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/swapnil20601/Leetcode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0155-min-stack](https://github.com/swapnil20601/Leetcode/tree/main/0155-min-stack/) | Medium |
 | [0234-palindrome-linked-list](https://github.com/swapnil20601/Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
@@ -171,6 +173,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/swapnil20601/Leetcode/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0061-rotate-list](https://github.com/swapnil20601/Leetcode/tree/main/0061-rotate-list/) | Medium |
 | [0086-partition-list](https://github.com/swapnil20601/Leetcode/tree/main/0086-partition-list/) | Medium |
+| [0143-reorder-list](https://github.com/swapnil20601/Leetcode/tree/main/0143-reorder-list/) | Medium |
 | [0206-reverse-linked-list](https://github.com/swapnil20601/Leetcode/tree/main/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/swapnil20601/Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0237-delete-node-in-a-linked-list](https://github.com/swapnil20601/Leetcode/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
@@ -179,6 +182,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/swapnil20601/Leetcode/tree/main/0021-merge-two-sorted-lists/) | Easy |
+| [0143-reorder-list](https://github.com/swapnil20601/Leetcode/tree/main/0143-reorder-list/) | Medium |
 | [0206-reverse-linked-list](https://github.com/swapnil20601/Leetcode/tree/main/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/swapnil20601/Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
 <!---LeetCode Topics End-->
