@@ -131,6 +131,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/swapnil20601/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0138-copy-list-with-random-pointer](https://github.com/swapnil20601/Leetcode/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/swapnil20601/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0496-next-greater-element-i](https://github.com/swapnil20601/Leetcode/tree/main/0496-next-greater-element-i/) | Easy |
 | [0904-fruit-into-baskets](https://github.com/swapnil20601/Leetcode/tree/main/0904-fruit-into-baskets/) | Medium |
@@ -177,6 +178,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/swapnil20601/Leetcode/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0061-rotate-list](https://github.com/swapnil20601/Leetcode/tree/main/0061-rotate-list/) | Medium |
 | [0086-partition-list](https://github.com/swapnil20601/Leetcode/tree/main/0086-partition-list/) | Medium |
+| [0138-copy-list-with-random-pointer](https://github.com/swapnil20601/Leetcode/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0143-reorder-list](https://github.com/swapnil20601/Leetcode/tree/main/0143-reorder-list/) | Medium |
 | [0206-reverse-linked-list](https://github.com/swapnil20601/Leetcode/tree/main/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/swapnil20601/Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
