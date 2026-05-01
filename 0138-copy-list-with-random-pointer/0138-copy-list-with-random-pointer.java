@@ -15,7 +15,6 @@ class Node {
 
 class Solution {
     public Node copyRandomList(Node head) {
-        Map<Node, Node> map = new HashMap<>();
         Node curr = head;
         Node prev = null;
         Node newHead = null;
@@ -25,12 +24,10 @@ class Solution {
             if(newHead == null){
                 newHead = node;
             }
-            else{
-                prev.next = node;
-            }
-            prev = node;
-            map.put(curr, node);
-            curr = curr.next;
+            Node temp = curr.next;
+            curr.next = node;
+            node.next = temp;
+            curr = temp;
         }
 
         curr = head;
@@ -38,11 +35,24 @@ class Solution {
 
         while(curr != null){
             if(curr.random != null){
-                newCurr.random = map.get(curr.random);
+                newCurr.random = curr.random.next;
             }
+            curr = curr.next.next;
+            if(newCurr.next != null){
+                newCurr = newCurr.next.next;
+            }
+        }
+
+        curr = head;
+        newCurr = newHead;
+
+        while(curr != null && newCurr != null){
+            curr.next = (newCurr != null) ? newCurr.next : null;
             curr = curr.next;
+            newCurr.next = (curr != null) ? curr.next : null;
             newCurr = newCurr.next;
         }
+        
         return newHead;
     }
 }
