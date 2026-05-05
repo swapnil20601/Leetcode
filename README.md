@@ -7,6 +7,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/swapnil20601/Leetcode/tree/main/0001-two-sum/) | Easy |
 | [0011-container-with-most-water](https://github.com/swapnil20601/Leetcode/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/swapnil20601/Leetcode/tree/main/0015-3sum/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/swapnil20601/Leetcode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
@@ -130,6 +131,7 @@
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/swapnil20601/Leetcode/tree/main/0001-two-sum/) | Easy |
 | [0003-longest-substring-without-repeating-characters](https://github.com/swapnil20601/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0138-copy-list-with-random-pointer](https://github.com/swapnil20601/Leetcode/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/swapnil20601/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
