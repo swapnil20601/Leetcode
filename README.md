@@ -15,6 +15,7 @@
 | [0162-find-peak-element](https://github.com/swapnil20601/Leetcode/tree/main/0162-find-peak-element/) | Medium |
 | [0204-count-primes](https://github.com/swapnil20601/Leetcode/tree/main/0204-count-primes/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/swapnil20601/Leetcode/tree/main/0209-minimum-size-subarray-sum/) | Medium |
+| [0219-contains-duplicate-ii](https://github.com/swapnil20601/Leetcode/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0283-move-zeroes](https://github.com/swapnil20601/Leetcode/tree/main/0283-move-zeroes/) | Easy |
 | [0303-range-sum-query-immutable](https://github.com/swapnil20601/Leetcode/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0496-next-greater-element-i](https://github.com/swapnil20601/Leetcode/tree/main/0496-next-greater-element-i/) | Easy |
@@ -122,6 +123,7 @@
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/swapnil20601/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/swapnil20601/Leetcode/tree/main/0209-minimum-size-subarray-sum/) | Medium |
+| [0219-contains-duplicate-ii](https://github.com/swapnil20601/Leetcode/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/swapnil20601/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0713-subarray-product-less-than-k](https://github.com/swapnil20601/Leetcode/tree/main/0713-subarray-product-less-than-k/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/swapnil20601/Leetcode/tree/main/0904-fruit-into-baskets/) | Medium |
@@ -134,6 +136,7 @@
 | [0001-two-sum](https://github.com/swapnil20601/Leetcode/tree/main/0001-two-sum/) | Easy |
 | [0003-longest-substring-without-repeating-characters](https://github.com/swapnil20601/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0138-copy-list-with-random-pointer](https://github.com/swapnil20601/Leetcode/tree/main/0138-copy-list-with-random-pointer/) | Medium |
+| [0219-contains-duplicate-ii](https://github.com/swapnil20601/Leetcode/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/swapnil20601/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0496-next-greater-element-i](https://github.com/swapnil20601/Leetcode/tree/main/0496-next-greater-element-i/) | Easy |
 | [0904-fruit-into-baskets](https://github.com/swapnil20601/Leetcode/tree/main/0904-fruit-into-baskets/) | Medium |
