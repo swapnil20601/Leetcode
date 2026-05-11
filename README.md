@@ -78,6 +78,7 @@
 | [0002-add-two-numbers](https://github.com/swapnil20601/Leetcode/tree/main/0002-add-two-numbers/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/swapnil20601/Leetcode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0204-count-primes](https://github.com/swapnil20601/Leetcode/tree/main/0204-count-primes/) | Medium |
+| [0415-add-strings](https://github.com/swapnil20601/Leetcode/tree/main/0415-add-strings/) | Easy |
 | [0441-arranging-coins](https://github.com/swapnil20601/Leetcode/tree/main/0441-arranging-coins/) | Easy |
 | [0445-add-two-numbers-ii](https://github.com/swapnil20601/Leetcode/tree/main/0445-add-two-numbers-ii/) | Medium |
 | [1071-greatest-common-divisor-of-strings](https://github.com/swapnil20601/Leetcode/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
@@ -113,6 +114,7 @@
 | [0014-longest-common-prefix](https://github.com/swapnil20601/Leetcode/tree/main/0014-longest-common-prefix/) | Easy |
 | [0125-valid-palindrome](https://github.com/swapnil20601/Leetcode/tree/main/0125-valid-palindrome/) | Easy |
 | [0165-compare-version-numbers](https://github.com/swapnil20601/Leetcode/tree/main/0165-compare-version-numbers/) | Medium |
+| [0415-add-strings](https://github.com/swapnil20601/Leetcode/tree/main/0415-add-strings/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/swapnil20601/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [1071-greatest-common-divisor-of-strings](https://github.com/swapnil20601/Leetcode/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
 ## Sorting
@@ -214,4 +216,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/swapnil20601/Leetcode/tree/main/0014-longest-common-prefix/) | Easy |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0415-add-strings](https://github.com/swapnil20601/Leetcode/tree/main/0415-add-strings/) | Easy |
 <!---LeetCode Topics End-->
