@@ -28,10 +28,10 @@ class Solution {
         }
 
         for(int i = 0; i < 26; i++){
-            /*String.repeat mrthod copies given character x times.
-            For ex: s.repeat('m',4) will result -> s = mmmm
-            */
-            frequencyString.repeat(i+'a', arr[i]);
+            while(arr[i] > 0){
+                frequencyString.append(i+'a');
+                arr[i]--;
+            }
         }
 
         return frequencyString.toString();
