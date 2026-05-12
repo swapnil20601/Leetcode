@@ -1,10 +1,11 @@
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        List<List<String>> res = new ArrayList<>();
+        List<List<String>> res;
         HashMap<String, List<String>> map = new HashMap<>();
 
         if(strs.length == 0){
-            return res;
+            //empty list
+            return new ArrayList<>();
         }
 
         for(String s : strs){
@@ -21,10 +22,7 @@ class Solution {
             }
         }
 
-        for(Map.Entry<String, List<String>> entry : map.entrySet()){
-            res.add(entry.getValue());
-        }
-
-        return res;
+        //Create a list & add all values from hashmap to this list & return it as answer.
+        return new ArrayList<>(map.values());
     }
 }
