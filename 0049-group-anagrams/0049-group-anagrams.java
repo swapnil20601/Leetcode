@@ -1,6 +1,5 @@
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        List<List<String>> res;
         HashMap<String, List<String>> map = new HashMap<>();
 
         if(strs.length == 0){
@@ -9,9 +8,7 @@ class Solution {
         }
 
         for(String s : strs){
-            char[] ch = s.toCharArray();
-            Arrays.sort(ch);
-            String key = String.valueOf(ch);
+            String key = getFrequencyString(s);
             if(!map.containsKey(key)){
                 map.put(key, new ArrayList<>());
             }
@@ -20,5 +17,23 @@ class Solution {
 
         //Create a list & add all values from hashmap to this list & return it as answer.
         return new ArrayList<>(map.values());
+    }
+
+    private String getFrequencyString(String word){
+        int[] arr = new int[26];
+        StringBuilder frequencyString = new StringBuilder("");
+
+        for(char ch : word.toCharArray()){
+            arr[ch - 'a']++;
+        }
+
+        for(int i = 0; i < 26; i++){
+            /*String.repeat mrthod copies given character x times.
+            For ex: s.repeat('m',4) will result -> s = mmmm
+            */
+            frequencyString.repeat(i+'a', arr[i]);
+        }
+
+        return frequencyString.toString();
     }
 }
