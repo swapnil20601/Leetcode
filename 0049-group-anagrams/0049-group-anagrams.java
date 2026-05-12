@@ -12,14 +12,10 @@ class Solution {
             char[] ch = s.toCharArray();
             Arrays.sort(ch);
             String key = String.valueOf(ch);
-            if(map.containsKey(key)){
-                map.get(key).add(s);
+            if(!map.containsKey(key)){
+                map.put(key, new ArrayList<>());
             }
-            else{
-                List<String> temp = new ArrayList<>();
-                temp.add(s);
-                map.put(key, temp);
-            }
+            map.get(key).add(s);
         }
 
         //Create a list & add all values from hashmap to this list & return it as answer.
