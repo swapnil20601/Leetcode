@@ -50,6 +50,7 @@
 | [0015-3sum](https://github.com/swapnil20601/Leetcode/tree/main/0015-3sum/) | Medium |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/swapnil20601/Leetcode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/swapnil20601/Leetcode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/swapnil20601/Leetcode/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0061-rotate-list](https://github.com/swapnil20601/Leetcode/tree/main/0061-rotate-list/) | Medium |
 | [0086-partition-list](https://github.com/swapnil20601/Leetcode/tree/main/0086-partition-list/) | Medium |
 | [0125-valid-palindrome](https://github.com/swapnil20601/Leetcode/tree/main/0125-valid-palindrome/) | Easy |
@@ -116,6 +117,7 @@
 | [0005-longest-palindromic-substring](https://github.com/swapnil20601/Leetcode/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0008-string-to-integer-atoi](https://github.com/swapnil20601/Leetcode/tree/main/0008-string-to-integer-atoi/) | Medium |
 | [0014-longest-common-prefix](https://github.com/swapnil20601/Leetcode/tree/main/0014-longest-common-prefix/) | Easy |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/swapnil20601/Leetcode/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0049-group-anagrams](https://github.com/swapnil20601/Leetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0125-valid-palindrome](https://github.com/swapnil20601/Leetcode/tree/main/0125-valid-palindrome/) | Easy |
 | [0165-compare-version-numbers](https://github.com/swapnil20601/Leetcode/tree/main/0165-compare-version-numbers/) | Medium |
@@ -228,4 +230,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0415-add-strings](https://github.com/swapnil20601/Leetcode/tree/main/0415-add-strings/) | Easy |
+## String Matching
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/swapnil20601/Leetcode/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 <!---LeetCode Topics End-->
