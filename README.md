@@ -123,6 +123,7 @@
 | [0165-compare-version-numbers](https://github.com/swapnil20601/Leetcode/tree/main/0165-compare-version-numbers/) | Medium |
 | [0415-add-strings](https://github.com/swapnil20601/Leetcode/tree/main/0415-add-strings/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/swapnil20601/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
+| [0459-repeated-substring-pattern](https://github.com/swapnil20601/Leetcode/tree/main/0459-repeated-substring-pattern/) | Easy |
 | [1071-greatest-common-divisor-of-strings](https://github.com/swapnil20601/Leetcode/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
@@ -234,4 +235,5 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/swapnil20601/Leetcode/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
+| [0459-repeated-substring-pattern](https://github.com/swapnil20601/Leetcode/tree/main/0459-repeated-substring-pattern/) | Easy |
 <!---LeetCode Topics End-->
