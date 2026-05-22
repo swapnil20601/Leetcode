@@ -12,6 +12,7 @@
 | [0014-longest-common-prefix](https://github.com/swapnil20601/Leetcode/tree/main/0014-longest-common-prefix/) | Easy |
 | [0015-3sum](https://github.com/swapnil20601/Leetcode/tree/main/0015-3sum/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/swapnil20601/Leetcode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0042-trapping-rain-water](https://github.com/swapnil20601/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0049-group-anagrams](https://github.com/swapnil20601/Leetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/swapnil20601/Leetcode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0162-find-peak-element](https://github.com/swapnil20601/Leetcode/tree/main/0162-find-peak-element/) | Medium |
@@ -51,6 +52,7 @@
 | [0019-remove-nth-node-from-end-of-list](https://github.com/swapnil20601/Leetcode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/swapnil20601/Leetcode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/swapnil20601/Leetcode/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
+| [0042-trapping-rain-water](https://github.com/swapnil20601/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0061-rotate-list](https://github.com/swapnil20601/Leetcode/tree/main/0061-rotate-list/) | Medium |
 | [0086-partition-list](https://github.com/swapnil20601/Leetcode/tree/main/0086-partition-list/) | Medium |
 | [0125-valid-palindrome](https://github.com/swapnil20601/Leetcode/tree/main/0125-valid-palindrome/) | Easy |
@@ -175,6 +177,7 @@
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/swapnil20601/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0143-reorder-list](https://github.com/swapnil20601/Leetcode/tree/main/0143-reorder-list/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/swapnil20601/Leetcode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0155-min-stack](https://github.com/swapnil20601/Leetcode/tree/main/0155-min-stack/) | Medium |
@@ -187,6 +190,7 @@
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/swapnil20601/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0496-next-greater-element-i](https://github.com/swapnil20601/Leetcode/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/swapnil20601/Leetcode/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0739-daily-temperatures](https://github.com/swapnil20601/Leetcode/tree/main/0739-daily-temperatures/) | Medium |
@@ -195,6 +199,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/swapnil20601/Leetcode/tree/main/0005-longest-palindromic-substring/) | Medium |
+| [0042-trapping-rain-water](https://github.com/swapnil20601/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0907-sum-of-subarray-minimums](https://github.com/swapnil20601/Leetcode/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
