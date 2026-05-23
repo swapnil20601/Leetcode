@@ -31,6 +31,7 @@
 | [0739-daily-temperatures](https://github.com/swapnil20601/Leetcode/tree/main/0739-daily-temperatures/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/swapnil20601/Leetcode/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/swapnil20601/Leetcode/tree/main/0904-fruit-into-baskets/) | Medium |
+| [0905-sort-array-by-parity](https://github.com/swapnil20601/Leetcode/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0907-sum-of-subarray-minimums](https://github.com/swapnil20601/Leetcode/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/swapnil20601/Leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/swapnil20601/Leetcode/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
@@ -63,6 +64,7 @@
 | [0234-palindrome-linked-list](https://github.com/swapnil20601/Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0283-move-zeroes](https://github.com/swapnil20601/Leetcode/tree/main/0283-move-zeroes/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/swapnil20601/Leetcode/tree/main/0876-middle-of-the-linked-list/) | Easy |
+| [0905-sort-array-by-parity](https://github.com/swapnil20601/Leetcode/tree/main/0905-sort-array-by-parity/) | Easy |
 | [2563-count-the-number-of-fair-pairs](https://github.com/swapnil20601/Leetcode/tree/main/2563-count-the-number-of-fair-pairs/) | Medium |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/swapnil20601/Leetcode/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
 ## Prefix Sum
@@ -135,6 +137,7 @@
 | [0015-3sum](https://github.com/swapnil20601/Leetcode/tree/main/0015-3sum/) | Medium |
 | [0049-group-anagrams](https://github.com/swapnil20601/Leetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0075-sort-colors](https://github.com/swapnil20601/Leetcode/tree/main/0075-sort-colors/) | Medium |
+| [0905-sort-array-by-parity](https://github.com/swapnil20601/Leetcode/tree/main/0905-sort-array-by-parity/) | Easy |
 | [2563-count-the-number-of-fair-pairs](https://github.com/swapnil20601/Leetcode/tree/main/2563-count-the-number-of-fair-pairs/) | Medium |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/swapnil20601/Leetcode/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
 ## Greedy
