@@ -14,6 +14,7 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/swapnil20601/Leetcode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0042-trapping-rain-water](https://github.com/swapnil20601/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0049-group-anagrams](https://github.com/swapnil20601/Leetcode/tree/main/0049-group-anagrams/) | Medium |
+| [0075-sort-colors](https://github.com/swapnil20601/Leetcode/tree/main/0075-sort-colors/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/swapnil20601/Leetcode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0162-find-peak-element](https://github.com/swapnil20601/Leetcode/tree/main/0162-find-peak-element/) | Medium |
 | [0204-count-primes](https://github.com/swapnil20601/Leetcode/tree/main/0204-count-primes/) | Medium |
@@ -54,6 +55,7 @@
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/swapnil20601/Leetcode/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0042-trapping-rain-water](https://github.com/swapnil20601/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0061-rotate-list](https://github.com/swapnil20601/Leetcode/tree/main/0061-rotate-list/) | Medium |
+| [0075-sort-colors](https://github.com/swapnil20601/Leetcode/tree/main/0075-sort-colors/) | Medium |
 | [0086-partition-list](https://github.com/swapnil20601/Leetcode/tree/main/0086-partition-list/) | Medium |
 | [0125-valid-palindrome](https://github.com/swapnil20601/Leetcode/tree/main/0125-valid-palindrome/) | Easy |
 | [0143-reorder-list](https://github.com/swapnil20601/Leetcode/tree/main/0143-reorder-list/) | Medium |
@@ -132,6 +134,7 @@
 | ------- | ------- |
 | [0015-3sum](https://github.com/swapnil20601/Leetcode/tree/main/0015-3sum/) | Medium |
 | [0049-group-anagrams](https://github.com/swapnil20601/Leetcode/tree/main/0049-group-anagrams/) | Medium |
+| [0075-sort-colors](https://github.com/swapnil20601/Leetcode/tree/main/0075-sort-colors/) | Medium |
 | [2563-count-the-number-of-fair-pairs](https://github.com/swapnil20601/Leetcode/tree/main/2563-count-the-number-of-fair-pairs/) | Medium |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/swapnil20601/Leetcode/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
 ## Greedy
