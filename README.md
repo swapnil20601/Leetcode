@@ -39,6 +39,7 @@
 | [1480-running-sum-of-1d-array](https://github.com/swapnil20601/Leetcode/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/swapnil20601/Leetcode/tree/main/1760-minimum-limit-of-balls-in-a-bag/) | Medium |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/swapnil20601/Leetcode/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
+| [2161-partition-array-according-to-given-pivot](https://github.com/swapnil20601/Leetcode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 | [2187-minimum-time-to-complete-trips](https://github.com/swapnil20601/Leetcode/tree/main/2187-minimum-time-to-complete-trips/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/swapnil20601/Leetcode/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2563-count-the-number-of-fair-pairs](https://github.com/swapnil20601/Leetcode/tree/main/2563-count-the-number-of-fair-pairs/) | Medium |
@@ -65,6 +66,7 @@
 | [0283-move-zeroes](https://github.com/swapnil20601/Leetcode/tree/main/0283-move-zeroes/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/swapnil20601/Leetcode/tree/main/0876-middle-of-the-linked-list/) | Easy |
 | [0905-sort-array-by-parity](https://github.com/swapnil20601/Leetcode/tree/main/0905-sort-array-by-parity/) | Easy |
+| [2161-partition-array-according-to-given-pivot](https://github.com/swapnil20601/Leetcode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 | [2563-count-the-number-of-fair-pairs](https://github.com/swapnil20601/Leetcode/tree/main/2563-count-the-number-of-fair-pairs/) | Medium |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/swapnil20601/Leetcode/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
 ## Prefix Sum
@@ -242,6 +244,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0415-add-strings](https://github.com/swapnil20601/Leetcode/tree/main/0415-add-strings/) | Easy |
+| [2161-partition-array-according-to-given-pivot](https://github.com/swapnil20601/Leetcode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 ## String Matching
 | Problem Name | Difficulty |
 | ------- | ------- |
