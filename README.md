@@ -36,6 +36,7 @@
 | [0907-sum-of-subarray-minimums](https://github.com/swapnil20601/Leetcode/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/swapnil20601/Leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/swapnil20601/Leetcode/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
+| [1287-element-appearing-more-than-25-in-sorted-array](https://github.com/swapnil20601/Leetcode/tree/main/1287-element-appearing-more-than-25-in-sorted-array/) | Easy |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/swapnil20601/Leetcode/tree/main/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/swapnil20601/Leetcode/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/swapnil20601/Leetcode/tree/main/1760-minimum-limit-of-balls-in-a-bag/) | Medium |
