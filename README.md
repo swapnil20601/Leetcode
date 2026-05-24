@@ -18,6 +18,7 @@
 | [0075-sort-colors](https://github.com/swapnil20601/Leetcode/tree/main/0075-sort-colors/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/swapnil20601/Leetcode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0162-find-peak-element](https://github.com/swapnil20601/Leetcode/tree/main/0162-find-peak-element/) | Medium |
+| [0169-majority-element](https://github.com/swapnil20601/Leetcode/tree/main/0169-majority-element/) | Easy |
 | [0204-count-primes](https://github.com/swapnil20601/Leetcode/tree/main/0204-count-primes/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/swapnil20601/Leetcode/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/swapnil20601/Leetcode/tree/main/0219-contains-duplicate-ii/) | Easy |
@@ -142,6 +143,7 @@
 | [0015-3sum](https://github.com/swapnil20601/Leetcode/tree/main/0015-3sum/) | Medium |
 | [0049-group-anagrams](https://github.com/swapnil20601/Leetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0075-sort-colors](https://github.com/swapnil20601/Leetcode/tree/main/0075-sort-colors/) | Medium |
+| [0169-majority-element](https://github.com/swapnil20601/Leetcode/tree/main/0169-majority-element/) | Easy |
 | [0905-sort-array-by-parity](https://github.com/swapnil20601/Leetcode/tree/main/0905-sort-array-by-parity/) | Easy |
 | [2563-count-the-number-of-fair-pairs](https://github.com/swapnil20601/Leetcode/tree/main/2563-count-the-number-of-fair-pairs/) | Medium |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/swapnil20601/Leetcode/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
@@ -168,6 +170,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/swapnil20601/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0049-group-anagrams](https://github.com/swapnil20601/Leetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0138-copy-list-with-random-pointer](https://github.com/swapnil20601/Leetcode/tree/main/0138-copy-list-with-random-pointer/) | Medium |
+| [0169-majority-element](https://github.com/swapnil20601/Leetcode/tree/main/0169-majority-element/) | Easy |
 | [0219-contains-duplicate-ii](https://github.com/swapnil20601/Leetcode/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/swapnil20601/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0496-next-greater-element-i](https://github.com/swapnil20601/Leetcode/tree/main/0496-next-greater-element-i/) | Easy |
@@ -253,4 +256,12 @@
 | ------- | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/swapnil20601/Leetcode/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0459-repeated-substring-pattern](https://github.com/swapnil20601/Leetcode/tree/main/0459-repeated-substring-pattern/) | Easy |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0169-majority-element](https://github.com/swapnil20601/Leetcode/tree/main/0169-majority-element/) | Easy |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0169-majority-element](https://github.com/swapnil20601/Leetcode/tree/main/0169-majority-element/) | Easy |
 <!---LeetCode Topics End-->
