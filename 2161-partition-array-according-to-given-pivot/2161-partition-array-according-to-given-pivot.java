@@ -2,31 +2,22 @@ class Solution {
     public int[] pivotArray(int[] nums, int pivot) {
         int n = nums.length;
         int[] temp = new int[n];
-        int lessThanPivot = 0, equalToPivot = 0;
+        Arrays.fill(temp, pivot);
 
-        for(int i = 0; i < n; i++){
-            if(nums[i] < pivot){
-                lessThanPivot++;
+        int left = 0, right = n-1;
+        int lessThanPivot = 0, greaterThanPivot = n-1;
+
+        while(lessThanPivot < n && greaterThanPivot >= 0){
+            if(nums[lessThanPivot] < pivot){
+                temp[left++] = nums[lessThanPivot];
             }
-            else if(nums[i] == pivot){
-                equalToPivot++;
+            if(nums[greaterThanPivot] > pivot){
+                temp[right--] = nums[greaterThanPivot];
             }
+            lessThanPivot++;
+            greaterThanPivot--;
         }
 
-        int left = 0, mid = lessThanPivot, right = lessThanPivot + equalToPivot;
-
-        for(int i = 0; i < n; i++){
-            if(nums[i] < pivot){
-                temp[left++] = nums[i];
-            }
-            else if(nums[i] == pivot){
-                temp[mid++] = nums[i];
-            }
-            else{
-                temp[right++] = nums[i];
-            }
-        }
-        
         return temp;
     }
 }
