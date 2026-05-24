@@ -1,18 +1,21 @@
 class Solution {
     public int pivotInteger(int n) {
-        int leftSum= 0;
-        int rightSum = 0;
+        int left = 1, right = n;
+        int leftSum = 1, rightSum = n;
 
-        int totalSum = (n * (n+1))/2;
-
-        for(int i = 1; i <= n; i++){
-            leftSum += i;
-            rightSum = totalSum - leftSum + i;
-            if(rightSum == leftSum){
-                return i;
+        while(left <= right){
+            if(leftSum == rightSum && left == right){
+                return left;
+            }
+            else if(leftSum < rightSum){
+                left++;
+                leftSum += left;
+            }
+            else{
+                right--;
+                rightSum += right;
             }
         }
-    
         return -1;
     }
 }
