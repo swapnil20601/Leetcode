@@ -47,6 +47,7 @@
 | [2187-minimum-time-to-complete-trips](https://github.com/swapnil20601/Leetcode/tree/main/2187-minimum-time-to-complete-trips/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/swapnil20601/Leetcode/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2563-count-the-number-of-fair-pairs](https://github.com/swapnil20601/Leetcode/tree/main/2563-count-the-number-of-fair-pairs/) | Medium |
+| [2780-minimum-index-of-a-valid-split](https://github.com/swapnil20601/Leetcode/tree/main/2780-minimum-index-of-a-valid-split/) | Medium |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/swapnil20601/Leetcode/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
 | [3355-zero-array-transformation-i](https://github.com/swapnil20601/Leetcode/tree/main/3355-zero-array-transformation-i/) | Medium |
 | [3356-zero-array-transformation-ii](https://github.com/swapnil20601/Leetcode/tree/main/3356-zero-array-transformation-ii/) | Medium |
@@ -148,6 +149,7 @@
 | [0229-majority-element-ii](https://github.com/swapnil20601/Leetcode/tree/main/0229-majority-element-ii/) | Medium |
 | [0905-sort-array-by-parity](https://github.com/swapnil20601/Leetcode/tree/main/0905-sort-array-by-parity/) | Easy |
 | [2563-count-the-number-of-fair-pairs](https://github.com/swapnil20601/Leetcode/tree/main/2563-count-the-number-of-fair-pairs/) | Medium |
+| [2780-minimum-index-of-a-valid-split](https://github.com/swapnil20601/Leetcode/tree/main/2780-minimum-index-of-a-valid-split/) | Medium |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/swapnil20601/Leetcode/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
@@ -180,6 +182,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/swapnil20601/Leetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/swapnil20601/Leetcode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/swapnil20601/Leetcode/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
+| [2780-minimum-index-of-a-valid-split](https://github.com/swapnil20601/Leetcode/tree/main/2780-minimum-index-of-a-valid-split/) | Medium |
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
