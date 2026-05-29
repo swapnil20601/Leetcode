@@ -15,6 +15,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/swapnil20601/Leetcode/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0042-trapping-rain-water](https://github.com/swapnil20601/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0049-group-anagrams](https://github.com/swapnil20601/Leetcode/tree/main/0049-group-anagrams/) | Medium |
+| [0053-maximum-subarray](https://github.com/swapnil20601/Leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0075-sort-colors](https://github.com/swapnil20601/Leetcode/tree/main/0075-sort-colors/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/swapnil20601/Leetcode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0162-find-peak-element](https://github.com/swapnil20601/Leetcode/tree/main/0162-find-peak-element/) | Medium |
@@ -222,6 +223,7 @@
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/swapnil20601/Leetcode/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0042-trapping-rain-water](https://github.com/swapnil20601/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
+| [0053-maximum-subarray](https://github.com/swapnil20601/Leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/swapnil20601/Leetcode/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
@@ -267,6 +269,7 @@
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0053-maximum-subarray](https://github.com/swapnil20601/Leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0169-majority-element](https://github.com/swapnil20601/Leetcode/tree/main/0169-majority-element/) | Easy |
 | [0215-kth-largest-element-in-an-array](https://github.com/swapnil20601/Leetcode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 ## Counting
